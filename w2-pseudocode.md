@@ -36,3 +36,5 @@ Baju = 20
     masukan baju 20
 
 MAKA ("mesin cuci akan menyala")
+
+ 
