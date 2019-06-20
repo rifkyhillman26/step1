@@ -37,3 +37,12 @@ while(row >= 1) {
 }
  row--;
 } 
+
+
+var flag = 100;
+
+if (flag % 2 > 0) {
+	console.log("GANJIL")
+} else {
+	console.log("GENAP")
+}
