@@ -38,11 +38,20 @@ while(row >= 1) {
  row--;
 } 
 
+// for(var i = 1; i <= 100; i = i + 1) {
+//   if(i % 2 == 0) {
+//     console.log("Genap")
+//   } else {
+//     console.log("Ganjil")
+//   }
+// }
 
-var flag = 100;
-
-if (flag % 2 > 0) {
-	console.log("GANJIL")
-} else {
-	console.log("GENAP")
+for(var i = 1; i <= 100; i = i + 1) {
+  if(i % 3 === 0) {
+    if (i % 6 === 0) {
+      console.log(i + " kelipatan 6")
+    } else {
+      console.log(i + " kelipatan 3")
+    }
+  }
 }
