@@ -56,3 +56,4 @@ console.log('Third Word: ' + thirdWord4 + ', with length: ' + thirdWordlength);
 console.log('Fourth Word: ' + fourthWord4 + ', with length: ' + fouthWordlength);
 console.log('Fifth Word: ' + fifthWord4 + ', with length: ' + fifthWordlength);
 
+var angka 
