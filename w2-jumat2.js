@@ -1,11 +1,11 @@
- function balikKata(kata) {
-     // you can only write your code here!
-     var a='';
-     for(var i=kata.length -1; i >=0; i--){
-     a=a+kata[i]; 
-     }
-     return a;
-  } 
+function balikKata(kata) {
+    // you can only write your code here!
+  var tampung = ''
+  for (var i = kata.length-1;i >= 0 ;i--){
+     tampung = tampung + kata[i]
+  }
+  return tampung
+  }
   
   // TEST CASES
   console.log(balikKata('Hello World and Coders')); // sredoC dna dlroW olleH
