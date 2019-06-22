@@ -1,18 +1,26 @@
-
 function xo(str) {
-    // you can only write your code here!
-    var x = 0;
-    var o = 0;
-    for(var i = 0; i <= str.length; i++){
-    if(str[i]==='x')x++;
-    else if(str[i]==='o')o++;
+  // you can only write your code here!
+  var x = 0;
+  var o = 0;
+
+ for(var i = 0; i < str.length ; i++) {
+    if (str[i] == 'x') {
+      x = x + 1
+    } else {
+      o = o + 1
+    }
   }
-    return x === o;
+
+  if(x == o){
+    return true
+  } else if (x !== o){
+    return false
   }
-  
-  // TEST CASES
-  console.log(xo('xoxoxo')); // true
-  console.log(xo('oxooxo')); // false
-  console.log(xo('oxo')); // false
-  console.log(xo('xxxooo')); // true
-  console.log(xo('xoxooxxo')); // true
+}
+
+// TEST CASES
+console.log(xo('xoxoxo')); // true
+ console.log(xo('oxooxo')); // false
+ console.log(xo('oxo')); // false
+ console.log(xo('xxxooo')); // true
+ console.log(xo('xoxooxxo')); // true
