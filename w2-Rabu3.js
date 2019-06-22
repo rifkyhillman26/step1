@@ -5,46 +5,22 @@ for(var i = 1; i <= row; i = i + 1) {
 }
 
 
+var row2 = 5;
+
+for(var a = 1; a <= row2; a = a + 1) {
+  var bintang = ''
+  for(var b = 1; b <= row2; b++) {
+    bintang = bintang + "*"
+  }
+  console.log(bintang)
+} 
 
 var row2 = 5;
 
-for(var A = 1; A <= row2; A = A + 1) {
-  console.log('*****')
-}
-
-
-var row3 = 5;
-
-for(var A = 5; A <= row3; A = A + 1) {
-  console.log('*');
-}
-for (var B = 5; B <= row3; B = B + 1) {
-  console.log('**')
-}
-for (var B = 5; B <= row3; B = B + 1) {
-  console.log('***')
-}
-for (var B = 5; B <= row3; B = B + 1) {
-  console.log('****')
-}
-for (var B = 5; B <= row3; B = B + 1) {
-  console.log('*****')
-}
-
-var row3 = 5;
-
-for(var A = 5; A <= row3; A = A + 1) {
-  console.log('*****');
-}
-for (var B = 5; B <= row3; B = B + 1) {
-  console.log('****')
-}
-for (var B = 5; B <= row3; B = B + 1) {
-  console.log('***')
-}
-for (var B = 5; B <= row3; B = B + 1) {
-  console.log('**')
-}
-for (var B = 5; B <= row3; B = B + 1) {
-  console.log('*')
-}
+for(var a = 1; a <= row2; a = a + 1) {
+  var bintang = ''
+  for(var b = 1; b <= a; b++) {
+    bintang = bintang + "*"
+  }
+  console.log(bintang)
+} 
