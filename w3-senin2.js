@@ -3,10 +3,12 @@ function dataHandling(arr) {
   for(var i = 0;i < data.length ;i++){
     console.log('nomor ID : '+ data[i][0]);
     console.log('nama lengkap :' + data[i][1]) ;
-    console.log('TTL : ' + data[i][2] + data[i][3]);
+    console.log('TTL : ' + data[i][2]+' '+ data[i][3]);
     console.log('Hobi : ' + data[i][4]);
   }
+  return ""
   }
+
   
   var data = [
       ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"],
