@@ -1,13 +1,5 @@
 function hitungJumlahKata(kalimat) {
-    // you can only write your code here!
-    var spasi = 1;
-    for(var i=0; i<kalimat.length; i++){
-      if(kalimat[i] === ' '){
-        spasi++;
-      }
-    }
-    
-    return spasi;
+    return kalimat.split(' ').length
   }
   
   // TEST CASES
